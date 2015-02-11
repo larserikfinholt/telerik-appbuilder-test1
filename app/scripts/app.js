@@ -26,6 +26,7 @@
             skin: "flat"
         });
 
+        //test
         function loadPhotos() {
             everlive.Files.get().then(function (data) {
                 var files = [];
