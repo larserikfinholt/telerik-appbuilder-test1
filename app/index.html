@@ -11,10 +11,16 @@
 	<script src="kendo/js/jquery.min.js"></script>
 	<script src="kendo/js/kendo.mobile.min.js"></script>
 	<script src="scripts/app.js"></script>
+    <script src="https://bs-static.cdn.telerik.com/1.2.5/everlive.all.min.js"></script>
+    
 </head>
 <body>
-	<div data-role="view">
-
-	</div>
+<div data-role="view" data-model="listview" data-title="Jalla">
+ <div data-role="navbar">
+  <span data-role="view-title"></span>
+  <button data-role="button" data-align="right" data-bind="click: addImage">Add</button>
+</div>
+  <ul id="images"></ul>
+</div>
 </body>
 </html>
